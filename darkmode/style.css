@@ -1,0 +1,57 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --dark-text-color: rgb(135, 150, 180);
+    --dark-bg: rgb(24, 29, 49);
+    --light-bg: rgb(240, 240, 240);
+    --light-text-color: rgb(240, 233, 210);
+}
+
+body{
+    padding: 15px;
+    background-color: var(--light-bg);
+    color:var(--dark-text-color);
+}
+
+nav{
+    background-color: var(--dark-text-color);
+}
+nav ul{ 
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+nav ul li{
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    margin: 0 auto;
+    width: 80%;
+}
+main h1{}
+main p{}
+main button{}
+section{
+    
+}
+
+.textContent{}
+.textContent h2{}
+.textContent p{}
+.imageSection{}
+
+footer{}
+footer a{}
+
+
+.dark-mode{
+    background-color: var(--dark-bg);
+    color: var(--light-text-color);
+}
